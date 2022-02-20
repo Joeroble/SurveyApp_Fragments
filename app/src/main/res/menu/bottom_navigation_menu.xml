@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--sets up the menu items for the navigation menu-->
+    <item android:id="@+id/show_survey"
+        android:icon="@android:drawable/button_onoff_indicator_on"
+        android:title="@string/survey_title"/>
+
+    <item android:id="@+id/show_results"
+        android:icon="@android:drawable/button_onoff_indicator_off"
+        android:title="@string/results_title"/>
+</menu>

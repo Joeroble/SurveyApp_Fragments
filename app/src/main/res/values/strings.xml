@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SurveyApp_Fragments</string>
+    <!--Creates the string resources for the buttons, and question text.-->
+    <string name="reset_button_text">Reset</string>
+    <string name="no_button_text">No</string>
+    <string name="yes_button_text">Yes</string>
+    <string name="question_text">Would you like to fight a moon yeti?</string>
+    <string name="result_button_text">Results</string>
+    <string name="total_yes_count_text">Total Yes Count</string>
+    <string name="total_no_count_text">Total No Count</string>
+    <string name="continue_survey_button_text">Continue Survey</string>
+    <string name="results_title">Results</string>
+    <string name="survey_title">Survey</string>
+</resources>
