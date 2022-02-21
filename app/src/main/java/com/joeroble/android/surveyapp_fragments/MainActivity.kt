@@ -14,6 +14,10 @@ class MainActivity : AppCompatActivity() {
     // establishes the container and navigation view
     private lateinit var containerView: View
 
+    private val surveyViewModel: SurveyViewModel by lazy {
+        ViewModelProvider(this).get(SurveyViewModel::class.java)
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

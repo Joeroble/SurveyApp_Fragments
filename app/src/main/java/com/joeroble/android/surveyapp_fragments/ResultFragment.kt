@@ -27,8 +27,10 @@ class ResultFragment : Fragment() {
 
     // Establishes the surveyViewModel to interact with it, and pull data.
     private val surveyViewModel: SurveyViewModel by lazy {
-        ViewModelProvider(this).get(SurveyViewModel::class.java)
+        ViewModelProvider(requireActivity()).get(SurveyViewModel::class.java)
     }
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -41,6 +43,7 @@ class ResultFragment : Fragment() {
         resetCountersButton = view.findViewById(R.id.reset_button)
         noCounterText = view.findViewById(R.id.no_counter)
         yesCounterText = view.findViewById(R.id.yes_counter)
+
 
 
         // pulls in the data from the surveyViewModel to populate the counts.
